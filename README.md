@@ -357,10 +357,9 @@ Hosting or multi-user access, hierarchical categories, linked sub-recipes, nutri
 
 ## Handoff (status and next steps)
 
-Status at handoff. Everything below was built and checked only on this machine,
-with synthetic data. The repositories already exist: `d-schmitt/open-sauce` is
-public and `d-schmitt/open-sauce-files` is private. This source is being
-committed locally to the public repository; no code has been pushed.
+Status at handoff. Everything below was built and checked on this machine with
+synthetic data. The app repository `d-schmitt/open-sauce` is public; the
+separate `d-schmitt/open-sauce-files` repository is private.
 
 **Done and verified** (`npm test`: 62 of 62 pass; `npm run e2e:agent` and `npm run e2e:conflict` pass in headless Chrome; screenshots of browse, Apfelkuchen table, history, attempt editor, add-recipe help and draft review were taken and looked at):
 
@@ -378,6 +377,5 @@ committed locally to the public repository; no code has been pushed.
 
 **Next steps:**
 
-1. Push the local app commit only after explicit user authorization.
-2. Choose a cookbook folder outside the code folder and connect it to the private `open-sauce-files` repository. Then enter and review a first real recipe, save it, and try Sync.
-3. Consider user-wide canvas installation later. Hosting and the other items in "Deferred" remain out of scope.
+1. Choose a cookbook folder outside the code folder and connect it to the private `open-sauce-files` repository. Then enter and review a first real recipe, save it, and try Sync.
+2. Consider user-wide canvas installation later. Hosting and the other items in "Deferred" remain out of scope.
