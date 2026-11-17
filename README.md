@@ -373,12 +373,11 @@ committed locally to the public repository; no code has been pushed.
 **Not done or not verified:**
 
 - The private data repository `d-schmitt/open-sauce-files` exists and is empty. Sync has never been run against a real GitHub repository, and no cookbook is connected to it. Create or choose a cookbook folder, connect it to that private repository as described in "Sync with a private git repository", verify `gh auth status`, and press Sync yourself.
-- A prior build was opened in the real Copilot canvas and its `submit_draft` action was exercised with a synthetic recipe; the draft appeared unsaved. The latest build, including the final AI review and photo-preservation fixes, has not yet been reloaded and rechecked in the canvas. It is session-scoped and has not been installed user-wide.
+- The latest build was reloaded into this Copilot session's canvas and checked with synthetic data: `list_recipes` returned the demo cookbook, `submit_draft` placed a draft in review, and the recipe count stayed unchanged until the draft was dismissed. The canvas is session-scoped and has not been installed user-wide. No real recipe has been entered.
 - No real family recipes have been entered. The limitations listed under "Known limitations" still apply.
 
 **Next steps:**
 
-1. Recheck the latest build in the session-scoped Copilot canvas.
-2. Push this local commit only after explicit user authorization.
-3. Choose a cookbook folder outside the code folder and connect it to the private `open-sauce-files` repository. Then enter and review a first real recipe, save it, and try Sync.
-4. Consider user-wide canvas installation later. Hosting and the other items in "Deferred" remain out of scope.
+1. Push the local app commit only after explicit user authorization.
+2. Choose a cookbook folder outside the code folder and connect it to the private `open-sauce-files` repository. Then enter and review a first real recipe, save it, and try Sync.
+3. Consider user-wide canvas installation later. Hosting and the other items in "Deferred" remain out of scope.
