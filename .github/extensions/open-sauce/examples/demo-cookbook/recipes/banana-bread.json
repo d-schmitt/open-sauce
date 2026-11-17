@@ -1,0 +1,641 @@
+{
+  "format": "open-sauce-recipe",
+  "schemaVersion": 1,
+  "id": "banana-bread",
+  "version": 1,
+  "categoryIds": [
+    "sweet",
+    "baking"
+  ],
+  "current": "s_d0000000004d",
+  "createdAt": "2026-03-01T09:00:00.000Z",
+  "updatedAt": "2026-05-10T15:00:00.000Z",
+  "snapshots": [
+    {
+      "attempt": null,
+      "id": "s_d0000000001d",
+      "parent": null,
+      "kind": "revision",
+      "createdAt": "2026-03-01T09:00:00.000Z",
+      "message": "Created recipe",
+      "content": {
+        "title": "Weekday Banana Bread",
+        "description": "A forgiving loaf for very ripe bananas.",
+        "attribution": "Cousin Sam (synthetic example)",
+        "sourceUrl": "",
+        "yield": "1 loaf (25 cm tin)",
+        "ingredients": [
+          {
+            "id": "i1",
+            "name": "Very ripe bananas",
+            "quantity": 3,
+            "unit": "piece",
+            "note": ""
+          },
+          {
+            "id": "i2",
+            "name": "Butter",
+            "quantity": 100,
+            "unit": "g",
+            "note": "melted"
+          },
+          {
+            "id": "i3",
+            "name": "Brown sugar",
+            "quantity": 150,
+            "unit": "g",
+            "note": ""
+          },
+          {
+            "id": "i4",
+            "name": "Egg",
+            "quantity": 1,
+            "unit": "piece",
+            "note": ""
+          },
+          {
+            "id": "i5",
+            "name": "Plain flour",
+            "quantity": 250,
+            "unit": "g",
+            "note": ""
+          },
+          {
+            "id": "i6",
+            "name": "Baking soda",
+            "quantity": 1,
+            "unit": "tsp",
+            "note": ""
+          },
+          {
+            "id": "i7",
+            "name": "Salt",
+            "quantity": 1,
+            "unit": "pinch",
+            "note": ""
+          }
+        ],
+        "actions": [
+          {
+            "id": "a1",
+            "text": "Mash the bananas",
+            "inputs": [
+              {
+                "ingredient": "i1"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a2",
+            "text": "Stir in melted butter, sugar and egg",
+            "inputs": [
+              {
+                "action": "a1"
+              },
+              {
+                "ingredient": "i2"
+              },
+              {
+                "ingredient": "i3"
+              },
+              {
+                "ingredient": "i4"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a3",
+            "text": "Whisk flour, baking soda and salt",
+            "inputs": [
+              {
+                "ingredient": "i5"
+              },
+              {
+                "ingredient": "i6"
+              },
+              {
+                "ingredient": "i7"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a4",
+            "text": "Fold the dry mix into the wet mix",
+            "inputs": [
+              {
+                "action": "a2"
+              },
+              {
+                "action": "a3"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a5",
+            "text": "Pour into a lined loaf tin and bake",
+            "inputs": [
+              {
+                "action": "a4"
+              }
+            ],
+            "durationMinutes": 60,
+            "temperatureC": 175,
+            "ovenMode": "top-bottom"
+          }
+        ],
+        "notes": "",
+        "photos": []
+      }
+    },
+    {
+      "attempt": null,
+      "id": "s_d0000000002d",
+      "parent": "s_d0000000001d",
+      "kind": "revision",
+      "createdAt": "2026-04-02T19:30:00.000Z",
+      "message": "Less sugar, add walnuts",
+      "content": {
+        "title": "Weekday Banana Bread",
+        "description": "A forgiving loaf for very ripe bananas.",
+        "attribution": "Cousin Sam (synthetic example)",
+        "sourceUrl": "",
+        "yield": "1 loaf (25 cm tin)",
+        "ingredients": [
+          {
+            "id": "i1",
+            "name": "Very ripe bananas",
+            "quantity": 3,
+            "unit": "piece",
+            "note": ""
+          },
+          {
+            "id": "i2",
+            "name": "Butter",
+            "quantity": 100,
+            "unit": "g",
+            "note": "melted"
+          },
+          {
+            "id": "i3",
+            "name": "Brown sugar",
+            "quantity": 100,
+            "unit": "g",
+            "note": ""
+          },
+          {
+            "id": "i4",
+            "name": "Egg",
+            "quantity": 1,
+            "unit": "piece",
+            "note": ""
+          },
+          {
+            "id": "i5",
+            "name": "Plain flour",
+            "quantity": 250,
+            "unit": "g",
+            "note": ""
+          },
+          {
+            "id": "i6",
+            "name": "Baking soda",
+            "quantity": 1,
+            "unit": "tsp",
+            "note": ""
+          },
+          {
+            "id": "i7",
+            "name": "Salt",
+            "quantity": 1,
+            "unit": "pinch",
+            "note": ""
+          },
+          {
+            "id": "i8",
+            "name": "Walnuts",
+            "quantity": 80,
+            "unit": "g",
+            "note": "roughly chopped"
+          }
+        ],
+        "actions": [
+          {
+            "id": "a1",
+            "text": "Mash the bananas",
+            "inputs": [
+              {
+                "ingredient": "i1"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a2",
+            "text": "Stir in melted butter, sugar and egg",
+            "inputs": [
+              {
+                "action": "a1"
+              },
+              {
+                "ingredient": "i2"
+              },
+              {
+                "ingredient": "i3"
+              },
+              {
+                "ingredient": "i4"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a3",
+            "text": "Whisk flour, baking soda and salt",
+            "inputs": [
+              {
+                "ingredient": "i5"
+              },
+              {
+                "ingredient": "i6"
+              },
+              {
+                "ingredient": "i7"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a4",
+            "text": "Fold the dry mix and walnuts into the wet mix",
+            "inputs": [
+              {
+                "action": "a2"
+              },
+              {
+                "action": "a3"
+              },
+              {
+                "ingredient": "i8"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a5",
+            "text": "Pour into a lined loaf tin and bake",
+            "inputs": [
+              {
+                "action": "a4"
+              }
+            ],
+            "durationMinutes": 60,
+            "temperatureC": 175,
+            "ovenMode": "top-bottom"
+          }
+        ],
+        "notes": "",
+        "photos": []
+      }
+    },
+    {
+      "attempt": {
+        "date": "2026-04-12",
+        "multiplier": 2,
+        "outcome": "Only had 5 bananas. Fan at 165 °C browned the top too fast.",
+        "rating": 3,
+        "photos": []
+      },
+      "id": "s_d0000000003d",
+      "parent": "s_d0000000001d",
+      "kind": "attempt",
+      "createdAt": "2026-04-12T16:00:00.000Z",
+      "message": "Double batch for the school fair",
+      "content": {
+        "title": "Weekday Banana Bread",
+        "description": "A forgiving loaf for very ripe bananas.",
+        "attribution": "Cousin Sam (synthetic example)",
+        "sourceUrl": "",
+        "yield": "1 loaf (25 cm tin)",
+        "ingredients": [
+          {
+            "id": "i1",
+            "name": "Very ripe bananas",
+            "quantity": 5,
+            "unit": "piece",
+            "note": ""
+          },
+          {
+            "id": "i2",
+            "name": "Butter",
+            "quantity": 200,
+            "unit": "g",
+            "note": "melted"
+          },
+          {
+            "id": "i3",
+            "name": "Brown sugar",
+            "quantity": 300,
+            "unit": "g",
+            "note": ""
+          },
+          {
+            "id": "i4",
+            "name": "Egg",
+            "quantity": 2,
+            "unit": "piece",
+            "note": ""
+          },
+          {
+            "id": "i5",
+            "name": "Plain flour",
+            "quantity": 500,
+            "unit": "g",
+            "note": ""
+          },
+          {
+            "id": "i6",
+            "name": "Baking soda",
+            "quantity": 2,
+            "unit": "tsp",
+            "note": ""
+          },
+          {
+            "id": "i7",
+            "name": "Salt",
+            "quantity": 2,
+            "unit": "pinch",
+            "note": ""
+          }
+        ],
+        "actions": [
+          {
+            "id": "a1",
+            "text": "Mash the bananas",
+            "inputs": [
+              {
+                "ingredient": "i1"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a2",
+            "text": "Stir in melted butter, sugar and egg",
+            "inputs": [
+              {
+                "action": "a1"
+              },
+              {
+                "ingredient": "i2"
+              },
+              {
+                "ingredient": "i3"
+              },
+              {
+                "ingredient": "i4"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a3",
+            "text": "Whisk flour, baking soda and salt",
+            "inputs": [
+              {
+                "ingredient": "i5"
+              },
+              {
+                "ingredient": "i6"
+              },
+              {
+                "ingredient": "i7"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a4",
+            "text": "Fold the dry mix into the wet mix",
+            "inputs": [
+              {
+                "action": "a2"
+              },
+              {
+                "action": "a3"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a5",
+            "text": "Pour into two lined loaf tins and bake",
+            "inputs": [
+              {
+                "action": "a4"
+              }
+            ],
+            "durationMinutes": 55,
+            "temperatureC": 165,
+            "ovenMode": "fan"
+          }
+        ],
+        "notes": "",
+        "photos": []
+      }
+    },
+    {
+      "attempt": {
+        "date": "2026-05-10",
+        "multiplier": 1,
+        "outcome": "Best version so far. Moist, not too sweet.",
+        "rating": 5,
+        "photos": [
+          "2c3d4e5f60718293a4b5c6d7e8f90a1b.png"
+        ]
+      },
+      "id": "s_d0000000004d",
+      "parent": "s_d0000000002d",
+      "kind": "attempt",
+      "createdAt": "2026-05-10T15:00:00.000Z",
+      "message": "Sunday baking",
+      "content": {
+        "title": "Weekday Banana Bread",
+        "description": "A forgiving loaf for very ripe bananas.",
+        "attribution": "Cousin Sam (synthetic example)",
+        "sourceUrl": "",
+        "yield": "1 loaf (25 cm tin)",
+        "ingredients": [
+          {
+            "id": "i1",
+            "name": "Very ripe bananas",
+            "quantity": 3,
+            "unit": "piece",
+            "note": ""
+          },
+          {
+            "id": "i2",
+            "name": "Butter",
+            "quantity": 100,
+            "unit": "g",
+            "note": "melted"
+          },
+          {
+            "id": "i3",
+            "name": "Brown sugar",
+            "quantity": 100,
+            "unit": "g",
+            "note": ""
+          },
+          {
+            "id": "i4",
+            "name": "Egg",
+            "quantity": 1,
+            "unit": "piece",
+            "note": ""
+          },
+          {
+            "id": "i5",
+            "name": "Plain flour",
+            "quantity": 250,
+            "unit": "g",
+            "note": ""
+          },
+          {
+            "id": "i6",
+            "name": "Baking soda",
+            "quantity": 1,
+            "unit": "tsp",
+            "note": ""
+          },
+          {
+            "id": "i7",
+            "name": "Salt",
+            "quantity": 1,
+            "unit": "pinch",
+            "note": ""
+          },
+          {
+            "id": "i8",
+            "name": "Walnuts",
+            "quantity": 80,
+            "unit": "g",
+            "note": "toasted, roughly chopped"
+          }
+        ],
+        "actions": [
+          {
+            "id": "a1",
+            "text": "Mash the bananas",
+            "inputs": [
+              {
+                "ingredient": "i1"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a2",
+            "text": "Stir in melted butter, sugar and egg",
+            "inputs": [
+              {
+                "action": "a1"
+              },
+              {
+                "ingredient": "i2"
+              },
+              {
+                "ingredient": "i3"
+              },
+              {
+                "ingredient": "i4"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a3",
+            "text": "Whisk flour, baking soda and salt",
+            "inputs": [
+              {
+                "ingredient": "i5"
+              },
+              {
+                "ingredient": "i6"
+              },
+              {
+                "ingredient": "i7"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a4",
+            "text": "Fold the dry mix and walnuts into the wet mix",
+            "inputs": [
+              {
+                "action": "a2"
+              },
+              {
+                "action": "a3"
+              },
+              {
+                "ingredient": "i8"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a5",
+            "text": "Pour into a lined loaf tin and bake",
+            "inputs": [
+              {
+                "action": "a4"
+              }
+            ],
+            "durationMinutes": 55,
+            "temperatureC": 170,
+            "ovenMode": "top-bottom"
+          }
+        ],
+        "notes": "Toast the walnuts in a dry pan first. 170 °C works better in our oven.",
+        "photos": []
+      }
+    }
+  ]
+}

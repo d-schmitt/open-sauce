@@ -1,0 +1,174 @@
+{
+  "format": "open-sauce-recipe",
+  "schemaVersion": 1,
+  "id": "kartoffelsalat",
+  "version": 1,
+  "categoryIds": [
+    "savory"
+  ],
+  "current": "s_c0000000001c",
+  "createdAt": "2026-03-05T12:00:00.000Z",
+  "updatedAt": "2026-03-05T12:00:00.000Z",
+  "snapshots": [
+    {
+      "attempt": null,
+      "id": "s_c0000000001c",
+      "parent": null,
+      "kind": "revision",
+      "createdAt": "2026-03-05T12:00:00.000Z",
+      "message": "Created recipe",
+      "content": {
+        "title": "Schwäbischer Kartoffelsalat",
+        "description": "Mit warmer Brühe angemacht, ohne Mayonnaise.",
+        "attribution": "Tante Erika (synthetisches Beispiel)",
+        "sourceUrl": "",
+        "yield": "4 Portionen",
+        "ingredients": [
+          {
+            "id": "i1",
+            "name": "Festkochende Kartoffeln",
+            "quantity": 1,
+            "unit": "kg",
+            "note": ""
+          },
+          {
+            "id": "i2",
+            "name": "Zwiebel",
+            "quantity": 1,
+            "unit": "piece",
+            "note": ""
+          },
+          {
+            "id": "i3",
+            "name": "Gemüsebrühe",
+            "quantity": 200,
+            "unit": "ml",
+            "note": ""
+          },
+          {
+            "id": "i4",
+            "name": "Weißweinessig",
+            "quantity": 4,
+            "unit": "tbsp",
+            "note": ""
+          },
+          {
+            "id": "i5",
+            "name": "Sonnenblumenöl",
+            "quantity": 4,
+            "unit": "tbsp",
+            "note": ""
+          },
+          {
+            "id": "i6",
+            "name": "Salz und Pfeffer",
+            "quantity": null,
+            "unit": "",
+            "note": "nach Geschmack"
+          },
+          {
+            "id": "i7",
+            "name": "Schnittlauch",
+            "quantity": 1,
+            "unit": "bunch",
+            "note": ""
+          }
+        ],
+        "actions": [
+          {
+            "id": "a1",
+            "text": "Kartoffeln mit Schale kochen",
+            "inputs": [
+              {
+                "ingredient": "i1"
+              }
+            ],
+            "durationMinutes": 25,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a2",
+            "text": "Pellen und in dünne Scheiben schneiden",
+            "inputs": [
+              {
+                "action": "a1"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a3",
+            "text": "Zwiebel fein würfeln",
+            "inputs": [
+              {
+                "ingredient": "i2"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a4",
+            "text": "Mit Brühe und Essig aufkochen",
+            "inputs": [
+              {
+                "action": "a3"
+              },
+              {
+                "ingredient": "i3"
+              },
+              {
+                "ingredient": "i4"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a5",
+            "text": "Heiß über die Kartoffeln gießen, ziehen lassen",
+            "inputs": [
+              {
+                "action": "a2"
+              },
+              {
+                "action": "a4"
+              }
+            ],
+            "durationMinutes": 30,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a6",
+            "text": "Öl unterheben, abschmecken, Schnittlauch darüber",
+            "inputs": [
+              {
+                "action": "a5"
+              },
+              {
+                "ingredient": "i5"
+              },
+              {
+                "ingredient": "i6"
+              },
+              {
+                "ingredient": "i7"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          }
+        ],
+        "notes": "",
+        "photos": []
+      }
+    }
+  ]
+}

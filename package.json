@@ -1,0 +1,22 @@
+{
+  "name": "open-sauce",
+  "version": "1.0.0",
+  "description": "Open Sauce: a local family cookbook with Cooking for Engineers preparation tables, recipe history and a Copilot canvas.",
+  "private": true,
+  "type": "module",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node .github/extensions/open-sauce/standalone.mjs",
+    "test": "node --test \"tests/*.test.mjs\"",
+    "demo:build": "node scripts/build-demo.mjs",
+    "screenshots": "node scripts/screenshots.mjs",
+    "e2e:conflict": "node scripts/e2e-conflict.mjs",
+    "e2e:agent": "node scripts/e2e-agent-draft.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.66.0-alpha-2026-11-10"
+  }
+}

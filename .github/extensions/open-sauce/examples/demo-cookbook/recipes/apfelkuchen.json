@@ -1,0 +1,216 @@
+{
+  "format": "open-sauce-recipe",
+  "schemaVersion": 1,
+  "id": "apfelkuchen",
+  "version": 1,
+  "categoryIds": [
+    "sweet",
+    "baking"
+  ],
+  "current": "s_a0000000001a",
+  "createdAt": "2026-02-14T10:00:00.000Z",
+  "updatedAt": "2026-02-14T10:00:00.000Z",
+  "snapshots": [
+    {
+      "attempt": null,
+      "id": "s_a0000000001a",
+      "parent": null,
+      "kind": "revision",
+      "createdAt": "2026-02-14T10:00:00.000Z",
+      "message": "Created recipe",
+      "content": {
+        "title": "Apfelkuchen",
+        "description": "Gedeckter Mürbeteig-Boden mit saftiger Apfelfüllung. Zwei Backstufen: erst heiß für den Boden, dann sanft fertig backen.",
+        "attribution": "Oma Hilde (synthetisches Beispiel)",
+        "sourceUrl": "",
+        "yield": "1 Springform (26 cm)",
+        "ingredients": [
+          {
+            "id": "i1",
+            "name": "Mehl",
+            "quantity": 250,
+            "unit": "g",
+            "note": "Type 405"
+          },
+          {
+            "id": "i2",
+            "name": "Butter",
+            "quantity": 125,
+            "unit": "g",
+            "note": "kalt, in Würfeln"
+          },
+          {
+            "id": "i3",
+            "name": "Zucker",
+            "quantity": 50,
+            "unit": "g",
+            "note": ""
+          },
+          {
+            "id": "i4",
+            "name": "Ei",
+            "quantity": 1,
+            "unit": "piece",
+            "note": ""
+          },
+          {
+            "id": "i5",
+            "name": "Salz",
+            "quantity": 1,
+            "unit": "pinch",
+            "note": ""
+          },
+          {
+            "id": "i6",
+            "name": "Äpfel",
+            "quantity": 1,
+            "unit": "kg",
+            "note": "säuerlich, z. B. Boskoop"
+          },
+          {
+            "id": "i7",
+            "name": "Zitronensaft",
+            "quantity": 2,
+            "unit": "tbsp",
+            "note": ""
+          },
+          {
+            "id": "i8",
+            "name": "Zimt",
+            "quantity": 1,
+            "unit": "tsp",
+            "note": ""
+          }
+        ],
+        "actions": [
+          {
+            "id": "a1",
+            "text": "Mehl, Butter, Zucker, Ei und Salz rasch zu einem Mürbeteig verkneten",
+            "inputs": [
+              {
+                "ingredient": "i1"
+              },
+              {
+                "ingredient": "i2"
+              },
+              {
+                "ingredient": "i3",
+                "quantity": 20
+              },
+              {
+                "ingredient": "i4"
+              },
+              {
+                "ingredient": "i5"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a2",
+            "text": "In Folie kalt stellen",
+            "inputs": [
+              {
+                "action": "a1"
+              }
+            ],
+            "durationMinutes": 30,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a3",
+            "text": "Springform auslegen, Rand 3 cm hochziehen",
+            "inputs": [
+              {
+                "action": "a2"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a4",
+            "text": "Äpfel schälen, entkernen, in Spalten schneiden",
+            "inputs": [
+              {
+                "ingredient": "i6"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a5",
+            "text": "Mit Zitronensaft, Zucker und Zimt mischen",
+            "inputs": [
+              {
+                "action": "a4"
+              },
+              {
+                "ingredient": "i7"
+              },
+              {
+                "ingredient": "i3",
+                "quantity": 30
+              },
+              {
+                "ingredient": "i8"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a6",
+            "text": "Füllung auf dem Boden verteilen",
+            "inputs": [
+              {
+                "action": "a3"
+              },
+              {
+                "action": "a5"
+              }
+            ],
+            "durationMinutes": null,
+            "temperatureC": null,
+            "ovenMode": ""
+          },
+          {
+            "id": "a7",
+            "text": "Backen (untere Schiene)",
+            "inputs": [
+              {
+                "action": "a6"
+              }
+            ],
+            "durationMinutes": 15,
+            "temperatureC": 180,
+            "ovenMode": "top-bottom"
+          },
+          {
+            "id": "a8",
+            "text": "Temperatur reduzieren und fertig backen",
+            "inputs": [
+              {
+                "action": "a7"
+              }
+            ],
+            "durationMinutes": 35,
+            "temperatureC": 160,
+            "ovenMode": "top-bottom"
+          }
+        ],
+        "notes": "Lauwarm mit Sahne servieren.",
+        "photos": [
+          "0a1fe7c5b3d24e6f8a9b0c1d2e3f4a5b.png"
+        ]
+      }
+    }
+  ]
+}

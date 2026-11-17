@@ -1,0 +1,22 @@
+{
+  "format": "open-sauce-categories",
+  "version": 1,
+  "categories": [
+    {
+      "id": "sweet",
+      "name": "Sweet"
+    },
+    {
+      "id": "savory",
+      "name": "Savory"
+    },
+    {
+      "id": "baking",
+      "name": "Baking"
+    },
+    {
+      "id": "weeknight",
+      "name": "Weeknight"
+    }
+  ]
+}
